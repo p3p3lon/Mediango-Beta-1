@@ -7,24 +7,27 @@
       <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
 	</head>
 	<body>
-        <!--Nav bar--->		
-	  <nav>
+        <!--Nav bar--->	
+    	
+	  <nav class=" light-blue darken-4">
 	    <div class="nav-wrapper">
 	      <div class="col s12">
 	        <a href="#!" class="brand-logo"><img class="logo" src="img/logo-mediango.png" alt="logo mediango"></a>
 	        <ul class="side-nav">
 	          <li><a href="·">Regístrate</a></li>
 	          <li><a href="components.html">Inicia Sesión</a></li>
+	          <li><a href="components.html">Publica tu Anuncio</a></li>
 	          
 	        </ul>
 	      </div>
 	    </div>
 	  </nav>
     <!--content--->	
-       <div class="hero">
-            <div class="container">
-                <div class="row">
-                     <h4>Encuentra los mejores espacios para anunciarte</h4>
+      <!--content hero--->	
+       <div class="hero s12 m12 l12">
+            <div class="container parallax-container">
+                <div class="row hero-content">
+                     <h3 class="shadow">Encuentra los mejores espacios para anunciarte</h3>
                         <form class="col s12 hero-form card">
                             <div class="row" style="margin-top:20px;">
                                 <div class="input-field col s12 l10">
@@ -32,34 +35,70 @@
                                   <label for="username">¿En qué ciudad te quieres anunciar?</label>
                                 </div>
                                 <div class="col s12 l2">
-                                    <a class="waves-effect waves-light btn">Buscar</a>
+                                    <a class="waves-effect waves-light btn" style="margin-top:10px;">Buscar</a>
                                 </div>
                             </div>
                         </form>
                 </div>
             </div>
         </div>
+    
+        <!--specificaciones--->	
         
+        <div class="section white">
+           <div class="row">
+            <form class="col s12">
+             
+              
+                  <select>
+                    <option value="" disabled selected>Selecciona tu Ciudad</option>
+                    <option value="1">Ciudad de México</option>
+                  </select>
+            </form>
+          </div>
+        </div>
+           
+        
+        
+          <div class="section white">
+            <div class="row container">
+              <h4 class="header">¿Cómo funciona?</h4>
+              <div class="col l4">
+                  <a class="btn-floating"><i class="mdi-action-search"></i></a>
+                  <h5>Busca y Encuentra</h5>
+                  <p>Busca entre nuestro amplio catálogo de diferentes medios cúal es el adecuado para ti.<br><br> Filtra tu búsqueda por Región, Target, Fechas, Costos y más.</p>
+              </div>
+              <div class="col l4">
+                  <a class="btn-floating"><i class="mdi-action-add-shopping-cart"></i></a>
+                  <h5>Elige y Planifica</h5>
+                  <p>Crear tu propia pauta en cuestión de minutos.<br><br> Planificar tu mix de medios nunca fue tan sencillo.</p>
+              </div>
+              <div class="col l4">
+                  <a class="btn-floating"><i class="mdi-action-payment"></i></a>
+                  <h5>Contrata Seguro</h5>
+                  <p>Contrata directo al medio, nunca más a un intermediario.<br><br> Con nuestro sistema de pagos, puedes estar tranquilo de que tu presupuesto esta seguro.</p>
+              </div>
+            </div>
+          </div>
+      
     <!--footer--->	
      <footer>
         <div class="container">
             <div class="row">
               <div class="col l6 s12">
-                <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text lighten-4">You can use rows and columns here to organize your footer content.</p>
+                <h5 class="white-text">Conócenos</h5>
+                <p class="grey-text lighten-4">Mediango nace con la intención de hacer que tu marca llegue a tu target ideal para hacerla crecer.</p>
               </div>
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Links</h5>
-                <li><a class="grey-text lighten-3" href="#!">Link 1</a></li>
-                <li><a class="grey-text lighten-3" href="#!">Link 2</a></li>
-                <li><a class="grey-text lighten-3" href="#!">Link 3</a></li>
-                <li><a class="grey-text lighten-3" href="#!">Link 4</a></li>
+                <li><a class="grey-text lighten-3" href="#!">Preguntas Frecuentes</a></li>
+                <li><a class="grey-text lighten-3" href="#!">Avíso Legal</a></li>
               </div>
             </div>
         </div>
         <div class="footer-copyright">
             <div class="container">
-            © 2014 Copyright Text
+            © 2014 Mediango
             <a class="grey-text lighten-4 right" href="#!">More Links</a>
             </div>
         </div>

@@ -8994,8 +8994,7 @@ footer {
     background-size: cover;
     color: white;
     text-align: center;
-    padding-top: 0px;
-    margin-top: -20px;
+    
 }
 
 
@@ -9004,3 +9003,16 @@ footer {
     color: #747474;
     height: 100px;
 }
+
+.hero-content {
+    position: relative;
+    height: 250px;
+    top: 100px;
+    
+}
+
+.shadow {
+    text-shadow: 4px 2px 11px rgba(150, 150, 150, 0.79);
+}
+
+
