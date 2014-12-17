@@ -10,9 +10,6 @@ footer {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-
-
-
 .hero {
     height: 500px;
     background: url("../img/hero.jpg") no-repeat;
@@ -20,9 +17,8 @@ footer {
     background-size: cover;
     color: white;
     text-align: center;
-    
+    margin-top: -22px;
 }
-
 
 .hero-form {
     background-color:rgba(255,255,255,0.8);
@@ -33,12 +29,34 @@ footer {
 .hero-content {
     position: relative;
     height: 250px;
-    top: 100px;
-    
+    top: 100px;    
 }
 
 .shadow {
     text-shadow: 4px 2px 11px rgba(150, 150, 150, 0.79);
 }
 
+.logo {
+    margin-top: 10px;
+    margin-left: 10px;
+}
 
+.promo i {
+    color: #039BE5;
+    font-size: 7rem;
+    display: block;
+}
+
+.icon-list {
+    padding-right: 10px;
+    
+}
+/* ==========================================================================
+   MEDIA QUERIES
+   ========================================================================== */
+*/
+@media only screen and (max-width: 500px) {
+  .hero-form {
+      height: 200px;
+  }
+}

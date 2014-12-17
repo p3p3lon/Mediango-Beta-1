@@ -167,11 +167,6 @@ img {
   border: 0;
 }
 
-.logo {
-margin-top: 10px;
-margin-left: 10px;
-}
-
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
@@ -6137,7 +6132,7 @@ td, th {
 
 nav {
   color: #fff;
-  background-color: #01579B;
+  background-color: #ee6e73;
   width: 100%;
   height: 56px;
   line-height: 56px;
@@ -6247,7 +6242,6 @@ html {
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
-  color: #212121;
 }
 @media only screen and (min-width: 0) {
   html {
@@ -7735,7 +7729,8 @@ ul.table-of-contents a.active {
 @media only screen and (max-width: 992px) {
   ul.side-nav {
     position: fixed;
-    width: 100%;
+    width: 240px;
+    left: -240px;
     top: 0;
     height: 120%;
     background-color: #FFF;
@@ -8966,9 +8961,3 @@ ul.table-of-contents a.active {
     margin-bottom: 5em;
   }
 }
-
-
-/* ==========================================================================
-   Estilos by JoeRam
-   ========================================================================== */
-

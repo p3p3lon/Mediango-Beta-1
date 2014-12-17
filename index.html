@@ -1,12 +1,13 @@
 <!doctype html>
 <html lang="es">
-    <meta charset="utf-8" />
 	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
 	<title>Mediango Beta 1.0</title>
 		<!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
       <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
-      
+      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> 
 	</head>
 	<body>
         <!--Nav bar--->	
@@ -15,55 +16,60 @@
 	    <div class="nav-wrapper">
 	      <div class="col s12">
 	        <a href="#!" class="brand-logo"><img class="logo" src="img/logo-mediango.png" alt="logo mediango"></a>
-	        <ul class="side-nav">
-	          <li><a href="·">Regístrate</a></li>
-	          <li><a href="components.html">Inicia Sesión</a></li>
-	          <li><a href="components.html">Publica tu Anuncio</a></li>
-	          
+	        <ul id="nav-mobile" class="side-nav">
+	          <li><a href="#">Regístrate</a></li>
+	          <li><a href="#">Inicia Sesión</a></li>
+	          <li><a href="#">Publica tu Anuncio</a></li>
 	        </ul>
+	        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
 	      </div>
+	      
 	    </div>
 	  </nav>
     <!--content--->	
-      <!--content hero--->	
-       <div class="hero s12 m12 l12">
-            <div class="container parallax-container">
-                <div class="row hero-content">
-                     <h3 class="shadow">Encuentra los mejores espacios para anunciarte</h3>
-                        <form class="col l10 s12 hero-form card">
-                            <div class="row" style="margin-top:20px;">
+      <!--content hero--->
+           <div class="row hero">
+            <div class="container">
+               <div class="">
+                   <div class="row hero-content">
+                     <h3 class="shadow">Encuentra el mejor espacio para anunciarte</h3>
+                        <form class="hero-form card">
+                            <div class="row col l10 s12" style="margin-top:20px;">
                                   <select>
-                                    <option value="" disabled selected>Selecciona tu Ciudad</option>
+                                    <option value="" disabled selected>¿En dónde te quieres anunciar?</option>
                                     <option value="1">Ciudad de México</option>
                                   </select>
-                                <div class="col s12 l2">
+                            </div>
+                            <div class="col s12 l2" style="margin-top:20px;">
                                     <a class="waves-effect waves-light btn" style="margin-top:10px;">Buscar</a>
                                 </div>
-                            </div>
                         </form>
                 </div>
+               </div>
             </div>
-        </div>
-    
+        </div>    
         <!--specificaciones--->	
     
           <div class="section white">
             <div class="row container">
-              <h4 class="header">¿Cómo funciona?</h4>
-              <div class="col l4">
-                  <a class="btn-floating"><i class="mdi-action-search"></i></a>
+              <h4 class="header center">¿Cómo funciona?</h4>
+              <div class="col l4 m4 center promo">
+                 <i class="mdi-action-search"></i>
                   <h5>Busca y Encuentra</h5>
-                  <p>Busca entre nuestro amplio catálogo de diferentes medios cúal es el adecuado para ti.<br><br> Filtra tu búsqueda por Región, Target, Fechas, Costos y más.</p>
+                  <p>Busca entre nuestro amplio catálogo de diferentes medios cúal es el adecuado para ti. Filtra tu búsqueda por Región, Target, Fechas, Costos y más.</p>
+                  <a class="waves-effect waves-teal btn-flat">Conoce Más</a>
               </div>
-              <div class="col l4">
-                  <a class="btn-floating"><i class="mdi-action-add-shopping-cart"></i></a>
+              <div class="col l4 m4 center promo">
+                  <i class="mdi-action-add-shopping-cart"></i>
                   <h5>Elige y Planifica</h5>
-                  <p>Crear tu propia pauta en cuestión de minutos.<br><br> Planificar tu mix de medios nunca fue tan sencillo.</p>
+                  <p>Crear tu propia pauta en cuestión de minutos. Planificar tu mix de medios nunca fue tan sencillo.</p>
+                  <a class="waves-effect waves-teal btn-flat">Conoce Más</a>
               </div>
-              <div class="col l4">
-                  <a class="btn-floating"><i class="mdi-action-payment"></i></a>
+              <div class="col l4 m4 center promo">
+                  <i class="mdi-action-lock-outline"></i>
                   <h5>Contrata Seguro</h5>
-                  <p>Contrata directo al medio, nunca más a un intermediario.<br><br> Con nuestro sistema de pagos, puedes estar tranquilo de que tu presupuesto esta seguro.</p>
+                  <p>Contrata directo al medio, nunca más a un intermediario. Con nuestro sistema de pagos, puedes estar tranquilo de que tu presupuesto esta seguro.</p>
+                  <a class="waves-effect waves-teal btn-flat">Conoce Más</a>
               </div>
             </div>
           </div>
@@ -77,16 +83,16 @@
                 <p class="grey-text lighten-4">Mediango nace con la intención de hacer que tu marca llegue a tu target ideal para hacerla crecer.</p>
               </div>
               <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
-                <li><a class="grey-text lighten-3" href="#!">Preguntas Frecuentes</a></li>
-                <li><a class="grey-text lighten-3" href="#!">Avíso Legal</a></li>
+                <h5 class="white-text">Síguenos</h5>
+                <li><a class="grey-text lighten-3" href="https://www.facebook.com/Mediango.oficial" target="_blank"><i class="fa fa-facebook icon-list"></i>Mediango</a></li>
+                <li><a class="grey-text lighten-3" href="#!"><i class="fa fa-twitter icon-list"></i>@Mediango_mx</a></li>
               </div>
             </div>
         </div>
         <div class="footer-copyright">
             <div class="container">
             © 2014 Mediango
-            <a class="grey-text lighten-4 right" href="#!">More Links</a>
+            <a class="grey-text lighten-4 right" href="#!">Avíso Legal</a>
             </div>
         </div>
     </footer>  
@@ -95,6 +101,10 @@
 		<!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>
+        $('.button-collapse').sideNav({menuWidth: 240, activationWidth: 70});
+        $('.datepicker').pickadate();
+        </script>
 	</body>
 	
 </html>
