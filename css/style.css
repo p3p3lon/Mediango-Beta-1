@@ -60,3 +60,8 @@ footer {
       height: 200px;
   }
 }
+
+.tabs-wrapper {   
+    position: relative;
+    height: 48px;
+}
