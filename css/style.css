@@ -65,3 +65,30 @@ footer {
     position: relative;
     height: 48px;
 }
+
+
+
+img.circle {
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+background-clip: padding-box;
+    margin: auto;
+}
+
+.profile-photo {
+    height: 100px;
+    
+}
+
+.profile-title {
+    margin-top: -140px;
+    background: #0091ea;
+    height: 120px ;
+    padding: 10px;
+    color: white;
+}
+
+.profile-contract {
+    background: #eeeeee;
+}

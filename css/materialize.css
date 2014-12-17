@@ -419,11 +419,11 @@ th {
 }
 
 .materialize-red.lighten-2 {
-  background-color: #ee6e73 !important;
+  background-color: #03a9f4 !important;
 }
 
 .materialize-red-text.lighten-2 {
-  color: #ee6e73 !important;
+  color:#03a9f4 !important;
 }
 
 .materialize-red.lighten-1 {
@@ -6132,7 +6132,7 @@ td, th {
 
 nav {
   color: #fff;
-  background-color: #ee6e73;
+  background-color: #03a9f4;
   width: 100%;
   height: 56px;
   line-height: 56px;
@@ -6620,7 +6620,7 @@ small {
   padding: 16px;
 }
 .card .card-action a {
-  color: #ffab40;
+  color: #29b6f6;
   margin-right: 16px;
   -webkit-transition: color 0.3s ease;
   -moz-transition: color 0.3s ease;
@@ -6731,7 +6731,7 @@ ul.tabs li.tab {
   }
 }
 ul.tabs li.tab a {
-  color: #ee6e73;
+  color: #03a9f4;
   display: block;
   width: 100%;
   height: 100%;
@@ -6742,13 +6742,13 @@ ul.tabs li.tab a {
   transition: color 0.28s ease;
 }
 ul.tabs li.tab a:hover {
-  color: #f8c1c3;
+  color: #b3e5fc;
 }
 ul.tabs .indicator {
   position: absolute;
   bottom: 0;
   height: 2px;
-  background-color: #ee6e73;
+  background-color: #03a9f4;
 }
 
 ul.tabs li.tab {
