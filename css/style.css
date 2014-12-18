@@ -92,3 +92,7 @@ background-clip: padding-box;
 .profile-contract {
     background: #eeeeee;
 }
+
+.sin-margin {
+    margin-top: -20px;
+}
