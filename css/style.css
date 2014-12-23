@@ -17,7 +17,7 @@ footer {
     background-size: cover;
     color: white;
     text-align: center;
-    margin-top: -22px;
+    margin-top: -15px;
 }
 
 .hero-form {
@@ -95,4 +95,21 @@ background-clip: padding-box;
 
 .sin-margin {
     margin-top: -20px;
+}
+
+.card-action {
+    padding-bottom: 0px !important;
+}
+
+.profile {
+    background: url(../img/ejemplo-revista.png) no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    
+}
+
+
+
+.search-bar {
+    margin-left: 150px;
 }
