@@ -97,6 +97,7 @@ background-clip: padding-box;
     margin-top: -20px;
 }
 
+<<<<<<< Updated upstream
 .card-action {
     padding-bottom: 0px !important;
 }
@@ -112,4 +113,10 @@ background-clip: padding-box;
 
 .search-bar {
     margin-left: 150px;
+=======
+.profile {
+ background: url(../img/ejemplo-revista.png) no-repeat !important;  
+    background-position: center !important;
+    background-size: cover !important;
+>>>>>>> Stashed changes
 }
