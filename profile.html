@@ -50,22 +50,23 @@
             </div>
             <div class="tabs-wrapper sin-margin">
                 <div class="white z-depth-1">
-                    <div class="container">
+                    <div class="container" data-magellan-expedition="fixed">
+                       <div class="sub-nav"></div>
                         <ul class="tabs">
-                            <li class="tab">
-                                <a href="#">Información</a> 
+                            <li class="tab" data-magellan-arrival="info">
+                                <a href="#info">Información</a> 
                             </li>
-                            <li class="tab">
-                                <a href="#">Target</a> 
+                            <li class="tab" data-magellan-arrival="target">
+                                <a href="#target">Target</a> 
                             </li>
-                            <li class="tab">
-                                <a href="#">ubicación</a> 
+                            <li class="tab" data-magellan-arrival="ubica">
+                                <a href="#ubica">ubicación</a> 
                             </li>
-                            <li class="tab">
-                                <a href="#">Tarifas</a> 
+                            <li class="tab" data-magellan-arrival="tarifas">
+                                <a href="#tarifas">Tarifas</a> 
                             </li>
-                            <li class="tab">
-                                <a href="#">Specs</a> 
+                            <li class="tab" data-magellan-arrival="specs">
+                                <a href="#specs">Specs</a> 
                             </li>
                         </ul>
                     </div>
@@ -74,7 +75,7 @@
             </div>
             <div class="container">
                 <div class="row col l12">
-                    <div class="col l9">
+                    <div class="col l9" id="info">
                         <h4>Información del Medio</h4>
                         <p>Es la plataforma multimedios para los que gustan del buen entretenimiento y las actividades sociales para todos los presupuestos. Está integrada por la revista mensual, un sitio web complementario como guía, redes sociales y ahora la versión digital tablet; a través de los cuales las principales marcas ofrecen productos y servicios. Mediante esta plataforma nuestro lector/ usuario puede informarse de una forma elocuente, divertida y a la vez empírica de las últimas tendencias en moda, vida nocturna, cine, teatro, museos, bares y restaurantes que influirán y marcarán su estilo de vida, sus espacios y momentos de esparcimiento.</p>
                     </div>
@@ -109,7 +110,7 @@
                 </div>
                 <div class="row col l12">
                     <div class="col s12 l9">
-                       <h4>Tarifas</h4>
+                        <h4>Tarifas</h4>
                         <table class="bordered">
                             <thead>
                                 <tr>
@@ -157,13 +158,21 @@
                         </table>
                     </div>
                     <div class="col l3">
-                       <h5>Especificaciones:</h5>
-                       <p><strong>Rebase en anuncios:</strong> 5 mm por cada lado.<br><br><strong>Caja editorial:</strong> será por lo menos de 5 mm dentro de la medida del corte.<br><br><strong>Archivos digitales:</strong> en plataforma Macintosh (Freehand, InDesign, Illustrator y Photoshop).<br><br><strong>Elementos gráficos:</strong> se deberán incluir todos los TIFF, EPS, PDF en alta resolución (300 dpi) de los archivos, así como todas las tipografías.<br><br><strong>Prueba de color:</strong> se deberá incluir una impresión a color del archivo final.</p>
-                        
+                        <h5>Especificaciones:</h5>
+                        <p><strong>Rebase en anuncios:</strong> 5 mm por cada lado.
+                            <br>
+                            <br><strong>Caja editorial:</strong> será por lo menos de 5 mm dentro de la medida del corte.
+                            <br>
+                            <br><strong>Archivos digitales:</strong> en plataforma Macintosh (Freehand, InDesign, Illustrator y Photoshop).
+                            <br>
+                            <br><strong>Elementos gráficos:</strong> se deberán incluir todos los TIFF, EPS, PDF en alta resolución (300 dpi) de los archivos, así como todas las tipografías.
+                            <br>
+                            <br><strong>Prueba de color:</strong> se deberá incluir una impresión a color del archivo final.</p>
+
                     </div>
                 </div>
                 <div class="row col l12">
-                    <div class="col l9">
+                    <div class="col l9" id="specs">
                         <h4>Entrega de material 2014</h4>
                         <table class="bordered">
                             <thead>
@@ -262,6 +271,19 @@
 
 
     <!--Import jQuery before materialize.js-->
+
+    <!--scipts-->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="/js/vendor/modernizr.js"></script>
+    <script src="/js/vendor/fastclick.js"></script>
+    <script src="js/foundation/foundation.js"></script>
+    <script src="js/foundation/foundation.joyride.js"></script>
+    <script src="js/foundation/foundation.magellan.js"></script>
+
+    <!-- Other JS plugins can be included here -->
+    <script>
+        $(document).foundation().foundation('joyride', 'start');
+    </script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script>
